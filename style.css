@@ -209,7 +209,14 @@ body {
   margin-bottom: 10rem;
 }
 .work-heading-container {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 2.2rem;
+  
+}
+.work-heading-container a{
+  color: #00a8cc;
+    font-size: 1.6rem;
 }
 
 .work-card {
