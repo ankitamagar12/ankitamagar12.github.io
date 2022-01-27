@@ -96,6 +96,22 @@ body {
   display: none;
 }
 
+/* navbar active class css */
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  color: #000;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #ff6464;
+}
+.active {
+  color: #ff6464 !important;
+}
+
 /* header section end */
 /* hero section start */
 .hero-content {
